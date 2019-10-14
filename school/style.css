@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+.welcomm {
+  position: relative;
+  text-align: left;
+
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 200px;
+  left: 16px;
+}
+.bg-header{
+    margin-left: ;
+    height: 750px;
+}
+.welcome-text{
+    width: 400px;
+    font-size: 25px;
+    margin-left: 140px;
+    line-height: 30px;
+
+}
+.welcome-textt{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: -190px;
+}
+.twitter{
+    font-size: 35px;
+    color: white;
+}
+#features{
+    margin-top: -20px;
+    position: center;
+}
+#navy{
+    background-color: black;
+}
+#navlist{
+    margin-top: -3px;
+}
+.row.promo-content {
+    background: #ffffff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
+    box-shadow: 0 9px 9px 0 #c7c7c7;
+    margin-top: 0px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+.promo-content{
+    width: 950px;
+}
+.text-icon-box{
+position: center;
+width: 450px;
+}
+
+.features-box-icon {
+    background: #d3ffea none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #31dc89;
+    height: 70px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    text-align: center;
+    width: 70px;
+}
+.site-btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 50px;
+    margin-top: 7px;
+    font-family: "Futura", sans-serif;
+    min-width: 170px;
+    text-align: center;
+    border: 2px solid #7ad4cc;
+    cursor: pointer;
+    color: black;
+}
+
+.site-btn:hover {
+    color: #fff;
+}
+
+
+.fun-fact-area .area-bg {
+    background: rgba(0, 0, 0, 0) url("img/fact-bg.jpg") no-repeat scroll center center / cover;
+}
+
+.fun-fact-area .area-bg::after {
+    background: #000000 none repeat scroll 0 0;
+    opacity: 0.6;
+}
+
+
+.author-content {
+    line-height: 1.8;
+    padding-top: 63px;
+    position: relative;
+}
+
+.author-content::before {
+    color: #3ee792;
+    content: "\f10e";
+    font-family: fontawesome;
+    font-size: 41px;
+    left: 0;
+    line-height: 1;
+    opacity: 0.5;
+    position: absolute;
+    top: 20px;
+}
+
+/*.testmonial-area .owl-controls {
+    height: 20px;
+    margin-top: 30px;
+}*/
+
+
+
+/*------------------------------
+    9. CONTACT AREA
+----------------------------------*/
+#contact{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 0 none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 1px #cacfda;
+    box-shadow: 0 0 0 1px #cacfda;
+    margin-bottom: 30px;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    -webkit-box-shadow: 0 0 0 1px #3ee792;
+    box-shadow: 0 0 0 1px #3ee792;
+}
+
+.contact-form button {
+    background: #3ee792 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 13px 20px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-form button:hover {
+    background: #171932 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.enroll-button a {
+    background: #31dc89 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+    width: 150px;
+}
+
+.enroll-button a:hover {
+    background: #171932 none repeat scroll 0 0;
+}
+
+
+/*---------------------------------
+    11. FOOTER AREA
+----------------------------------*/
+.footer-widget span {
+    color: #acb9cc;
+}
+.footer-widget ul {
+    list-style: none;
+}
+
+.footer-widget ul a {
+    font-size: 16px;
+    color: #75849a;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.social a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 18px;
+}
+
+.social a:last-child {
+    margin-right: 0;
+}
+
+.social .facebook {
+    background: #4b6cd0;
+}
+
+.social .google {
+    background: #f03b3b;
+}
+
+.social .instagram {
+    background: #bb8950;
+}
+
+.social .twitter {
+    background: #49a7f3;
+}
+.footer-area{
+}
+
+.footer-bottom-area {
+    background: #2e2e43 none repeat scroll 0 0;
+}
+
+.footer-copyright {
+    padding: 15px 0;
+}
+
+/*---------------------------------
+    12. SCROLL TO TOP AREA
+----------------------------------*/
+
+.scrolltotop {
+    background: #404873 none repeat scroll 0 0;
+    bottom: 20px;
+    color: #ffffff;
+    display: none;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 8px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 40px;
+    z-index: 9;
+}
+
+.scrolltotop:hover {
+    background: #3ee792;
+    color: #ffffff;
+}
+@media screen and (min-width: 700px){
+    #features {
+       margin-left: 200px;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    #compboy{
+       display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    .welcome-text{
+       margin-left: 2px;
+    }
+    
+}
