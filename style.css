@@ -52,7 +52,7 @@
     z-index: 1;
 }
 .promo-content{
-    width: 950px;
+    width: 100%;
 }
 .text-icon-box{
 position: center;
@@ -190,9 +190,6 @@ width: 450px;
 /*---------------------------------
     11. FOOTER AREA
 ----------------------------------*/
-}
-.footer-area{
-}
 
 .footer-bottom-area {
     background: #2e2e43 none repeat scroll 0 0;
@@ -225,12 +222,7 @@ width: 450px;
     background: #3ee792;
     color: #ffffff;
 }
-@media screen and (min-width: 700px){
-    #features {
-       margin-left: 200px;
-    }
-    
-}
+
 @media screen and (max-width: 1000px){
     #compboy{
        display: none;
